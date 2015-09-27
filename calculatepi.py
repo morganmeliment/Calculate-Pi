@@ -25,5 +25,5 @@ num = int(input("I will estimate pi. How many terms should I use? "))
 dec = int(input("How many decimal places should I use in the result? "))
 func = lambda n: (((-1) ** n)/((2 * n) + 1))
 m = map(func, range(0,num))
-print("The approximate value of pi is " + str(4 * sum(m))[:(dec + 2)])
+print("The approximate value of pi is " + str(4 * sum(m))[:(dec + 1)])
 
